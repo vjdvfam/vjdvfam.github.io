@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(0, 5, 5);
+}
+
+div.poster {
+    background-color: rgb(176, 230, 181);
+    width: 75%;
+}
+
+div.small {
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 18px;
+    border-top: 1px solid black;
+}
+
+div.text {
+    font-family:arial;
+    text-align: center;
+    text-transform: uppercase;
+    transition:0.5s;
+    border-top: 1px solid black;
+}
+
+  /* rule 1 */
+
+div.text.one {
+    font-size: 100px;
+}
+
+div.text.two {
+    font-size: 60px;
+}
+
+div.text.three {
+    font-size: 30px;
+}
+
+/* rule 2 */
+
+div.text.a {
+    text-align: left;
+}
+
+div.text.b {
+    text-align: center;
+}
+
+div.text.c {
+    text-align: right;
+}
+
+/* rule 3 */
+
+div.text.x {
+    color: beige;
+}
+div.text.y {
+    color: rgb(248, 213, 99);
+}
+div.text.z {
+    color: blue;
+}
