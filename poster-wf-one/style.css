@@ -3,54 +3,82 @@ body {
 }
 
 div.poster {
-    background-color: rgb(176, 230, 181);
+    background-color: rgb(176, 201, 230);
     width: 75%;
 }
+
+div.container {
+    display: flex;
+    flex-wrap: wrap;
+    outline: 1px solid orange;
+}
+
+div.col {
+  overflow: hidden;
+  
+}
+
+div.w1-3 {
+    width: 33.33%;
+
+}
+div.w2-3 {
+    width: 66.66%;
+
+}
+div.w3-3 {
+    width: 100%;
+}
+
+div.w1-2 {
+    width: 50%;
+}
+
+
 
 div.small {
     font-size: 18px;
     text-align: center;
     padding-bottom: 18px;
-    border-top: 1px solid black;
 }
 
 div.text {
+    font-size: 120px;
     font-family:arial;
-    text-align: center;
-    text-transform: uppercase;
-    transition:0.5s;
-    border-top: 1px solid black;
+    color: brown;
+    transform: 0.5s;
+   
 }
 
   /* rule 1 */
 
 div.text.one {
-    font-size: 100px;
+   
     background-color: rgba(255, 127, 80, 0.815);
 }
 
 div.text.two {
-    font-size: 60px;
+   
     background-color: rgba(101, 222, 231, 0.829);
 }
 
 div.text.three {
-    font-size: 30px;
+   
     background-color: rgba(0, 100, 0, 0.315);
 }
 
 /* rule 2 */
 
 div.text.a {
-    text-align: left;
+    font-size: 30px;
 }
 
 div.text.b {
-    text-align: center;
+ font-size: 80px;
 }
 
 div.text.c {
-    text-align: right;
+    font-size: 120px;
 }
 
 /* rule 3 */
