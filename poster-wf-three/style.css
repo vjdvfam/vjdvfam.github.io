@@ -1,0 +1,125 @@
+body {
+    background-color: rgb(0, 5, 5);
+}
+@font-face {
+    font-family: 'luofonts';
+    src:url(Block-Cut.woff)format('woff')
+}
+div.poster {
+    background-color: rgb(2, 2, 2);
+    width: 55%;
+    border: 5px dashed rgb(243, 156, 24);
+  margin-bottom: 20px;
+  
+}
+
+div.container {
+    display: flex;
+    flex-wrap: wrap;
+    outline: 1px solid rgb(5, 5, 5);
+   
+}
+
+div.col {
+  overflow: hidden;
+  
+}
+
+div.w1-3 {
+    width: 33.33%;
+
+}
+div.w2-3 {
+    width: 66.66%;
+
+}
+div.w3-3 {
+    width: 100%;
+}
+
+div.w1-2 {
+    width: 50%;
+}
+
+
+
+div.small {
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 18px;
+    color: rgb(241, 152, 34);
+    
+    
+}
+
+div.text {
+    font-size: 120px;
+    font-family:arial;
+    color: brown;
+    transform: 0.5s;
+    text-align: center;
+    
+    
+   
+}
+
+  /* rule 1 */
+
+div.text.one {
+   
+    background-color: rgba(117, 224, 149, 0.815);
+    
+}
+
+div.text.two {
+   
+    background-color: rgba(129, 159, 241, 0.815);
+
+}
+
+div.text.three {
+   
+    background-color: rgba(163, 129, 241, 0.815);
+    
+}
+
+
+/* rule 2 */
+
+div.text.a {
+    font-size: 50px;
+    border: 3px dashed rgb(238, 191, 38);
+  height: 100px;
+  width: 300px;
+  font-family:'luofonts'
+}
+
+div.text.b {
+ font-size: 30px;
+ 
+  
+}
+
+div.text.c {
+    font-size: 100px;
+    font-family:'luofonts'
+}
+
+/* rule 3 */
+
+div.text.x {
+    color: beige;
+    margin-bottom: 80px;
+    border-radius: 120%;
+    
+}
+div.text.y {
+    color: rgb(248, 213, 99);
+    margin-bottom: 60px;
+    border-radius: 100%;
+}
+div.text.z {
+    color: blue;
+    margin-bottom: 20px;
+    border-radius: 100%;
+}
