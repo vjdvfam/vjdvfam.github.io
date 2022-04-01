@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+div.poster {
+    background-color:black;
+    width: 75%;
+}
+
+@font-face {
+    font-family: 'luofonts';
+    src:url(PicNic-Regular.woff) format('woff')
+}
+
+
+div.text {
+    font-family:arial;
+    text-align: left;
+    text-transform: uppercase;
+    transition:0.5s;
+    color: rgba(245, 230, 117, 0.966);
+    font-size: 80px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col {
+
+}
+
+.w3-3 {
+    width: 50%;
+}
+.w2-3 {
+    width: 50%;
+}
+
+  /* rule 1 */
+
+div.text.one {
+    font-size: 100px;
+}
+    
+div.text.two {
+    font-size: 60px;
+}
+
+div.text.three {
+    
+   
+}
+
+/* rule 2 */
+
+div.text.a {
+    color: transparent;
+}
+
+div.text.b {
+
+}
+
+div.text.c {
+    color: rgba(245, 230, 117, 0.966);
+}
+
+/* rule 3 */
+
+div.text.x {
+    
+}
+div.text.y {
+    background-color: rgb(0, 0, 0);
+    font-family:'luofonts';
+}
+div.text.z {
+    background-image:url('cloud.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
