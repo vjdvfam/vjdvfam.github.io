@@ -86,11 +86,8 @@ div.text.x {
     
 }
 div.text.y {
-    background-image:url('black.jpg');
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position:center;
-    font-family:'luofonts';
+    background-color: rgba(242, 146, 247, 0.339);
+    
 }
 div.text.z {
  
