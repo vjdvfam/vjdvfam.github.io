@@ -37,6 +37,10 @@ div.text {
 .col {
 
 }
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .w1-4 {
     width: 25%;
@@ -71,6 +75,7 @@ div.text.three {
 
 div.text.a {
     color: transparent;
+    border: 10px yellow;
     text-shadow: 2px 2px 2px blue
 }
 
@@ -95,7 +100,7 @@ div.text.z {
  
 }
 div.small {
-    font-size: 30px;
+    font-size: 50px;
     color: rgb(118, 154, 255);
     background: linear-gradient(rgba(245, 230, 117, 0.966),gray,rgba(245, 230, 117, 0.966));
     width: 100%;

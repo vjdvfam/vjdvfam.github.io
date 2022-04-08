@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(250, 248, 248);
+    background-color: black;
 }
 
 
@@ -9,7 +9,7 @@ body {
 }
 div.poster {
     background-color: rgb(0, 0, 0);
-    width: 75%;
+    width: 100%;
 }
 
 div.small {
@@ -34,10 +34,6 @@ div.text {
 
 div.text.one {
     font-weight: bolder;
-    color: rgb(0, 255, 170);
-    font-size: 100px;
-}
-div.text.two {
     color: rgb(0, 255, 170);
     font-size: 120px;
 }
