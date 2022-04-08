@@ -17,23 +17,27 @@ div.small {
     font-family: 'fonts';
     text-align: center;
     padding-bottom: 18px;
-    color: rgb(255, 255, 255);
-    border-top: 3px solid rgb(196, 104, 183);
+    color: rgb(0, 255, 170);
+   
 }
 
 div.text {
     font-family:'fonts';
-    color: aliceblue;
+    color: white;
     text-align: center;
     text-transform: uppercase;
     transition:0.5s;
     font-size: 80px;
-    border-top: 3px solid rgb(86, 102, 245);
+   
 }
 
 
 div.text.one {
     font-weight: bolder;
     color: rgb(0, 255, 170);
-    font-size: 80px;
+    font-size: 100px;
+}
+div.text.two {
+    color: rgb(0, 255, 170);
+    font-size: 120px;
 }
