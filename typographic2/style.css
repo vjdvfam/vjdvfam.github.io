@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(53, 63, 85);
+}
+
+@font-face {
+    font-family: 'luo';
+    src:url(lakerg.woff) format('woff')
+}
+
+div.poster {
+        background-color: rgb(179, 205, 240);
+    width: 75%;
+    transition: 0.5s;
+}
+
+
+div.small {
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 18px;
+    color: rgb(133, 141, 247);
+    border-top: 3px solid rgb(196, 104, 183);
+}
+
+div.text {
+    text-align: right;
+    text-transform: uppercase;
+    transition:0.5s;
+    color: rgb(246, 174, 248);
+    border-top: 3px solid rgb(196, 104, 183);
+    font-size: 80px;
+}
+div.text.one {
+    font-size: 80px;
+    text-align: center;
+    font-family: 'luo';
+    background-color: aliceblue;
+}
+div.text.two {
+    font-size: 80px;
+    text-align: right;
+    font-family: 'luo';
+    background-color: rgb(239, 248, 159);
+}
+
+div.text.three {
+    font-size: 80px;
+    text-align: left;
+    background-color: rgb(80, 170, 248);
+}
+/* rule 1 */
