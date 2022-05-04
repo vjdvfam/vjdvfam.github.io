@@ -1,20 +1,18 @@
 body {
     background-color: rgb(0, 5, 5);
 }
-@font-face {
-    font-family: 'luofonts';
-    src:url(BROKEN.woff)format('woff')
-}
+
+
 div.poster {
     background-color: black;
     width: 100%;
     
 }
 div.header {
-    font-size: 50px;
+    font-size: 25px;
     color: orange;
     text-align: center;
-    text-shadow: 2px 10px rgba(255, 255, 0, 0.295);
+
     
     
     
