@@ -5,7 +5,7 @@ body {
 
 @font-face {
     font-family: 'fonts';
-    src: url(feixuan.woff)format('woff');
+    src: url(feixuan.woff) format('woff');
 }
 div.poster {
     background-color: rgb(0, 0, 0);
