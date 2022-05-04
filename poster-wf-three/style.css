@@ -1,14 +1,14 @@
 body {
-    background-color: rgb(0, 5, 5);
+    background-color: rgb(22, 22, 22);
 }
 @font-face {
     font-family: 'luofonts';
     src:url(Block-Cut.woff)format('woff')
 }
 div.poster {
-    background-color: rgb(2, 2, 2);
-    width: 55%;
-    border: 5px dashed rgb(243, 156, 24);
+    background-color: rgb(254, 253, 253);
+    width: 100%;
+    border: 5px dashed rgb(97, 97, 96);
   margin-bottom: 20px;
   
 }
@@ -21,8 +21,10 @@ div.container {
 }
 
 div.col {
-  overflow: hidden;
-  
+    overflow: hidden;
+    border-radius: 100%;
+    box-shadow: inset 0px 0px 50px rgb(251, 251, 250) ;
+
 }
 
 div.w1-3 {
@@ -47,17 +49,19 @@ div.small {
     font-size: 18px;
     text-align: center;
     padding-bottom: 18px;
-    color: rgb(241, 152, 34);
+    color: rgb(251, 119, 59);
     
     
 }
 
 div.text {
     font-size: 120px;
-    font-family:arial;
-    color: brown;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 80px;
+    border-radius: 120%;
     transform: 0.5s;
     text-align: center;
+   
     
     
    
@@ -87,39 +91,39 @@ div.text.three {
 /* rule 2 */
 
 div.text.a {
-    font-size: 50px;
-    border: 3px dashed rgb(238, 191, 38);
-  height: 100px;
-  width: 300px;
-  font-family:'luofonts'
+    
+
+  
+  font-family:Arial, Helvetica, sans-serif ;
+ 
 }
 
 div.text.b {
- font-size: 30px;
+
  
   
 }
 
 div.text.c {
-    font-size: 100px;
-    font-family:'luofonts'
+    
+    font-family:'luofonts':
 }
 
 /* rule 3 */
 
 div.text.x {
     color: beige;
-    margin-bottom: 80px;
-    border-radius: 120%;
+   
+   
     
 }
 div.text.y {
     color: rgb(248, 213, 99);
-    margin-bottom: 60px;
-    border-radius: 100%;
+  
 }
 div.text.z {
     color: blue;
-    margin-bottom: 20px;
-    border-radius: 100%;
+    box-shadow: inset 0px 0px 50px rgb(55, 55, 55) ;
+
 }
+    
