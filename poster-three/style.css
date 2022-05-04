@@ -4,7 +4,7 @@ body {
 
 @font-face {
     font-family: 'luofonts';
-    src:url(BROKEN.woff)format('woff')
+    src:url(broken.woff)format('woff')
 }
 
 div.poster {
