@@ -1,0 +1,268 @@
+body {
+    background-color: rgb(0, 0, 0);
+    font-family:'luos';
+    font-size: 24px;
+    background-image: url("images/id15.png");
+    background-size: contain;
+    align-items: right;
+    background-repeat: repeat;
+
+
+}
+
+a {
+    color: aqua;
+    text-decoration: none;
+    
+}
+
+@font-face {
+    font-family: 'luo';
+    src:url(unboxing.woff) format('woff')
+}
+
+@font-face {
+    font-family: 'luos';
+    src:url(monos.woff) format('woff')
+}
+
+a:hover {
+    color:aqua;
+}
+
+img {
+    max-width: 100%;
+}
+div.item:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+
+div.header {
+    display: flex;
+    flex-wrap: wrap;
+    color: aqua;
+    background-color: rgba(255, 255, 255, 0.051);
+    
+
+}
+
+div.logo {
+    padding: 10px;
+    width: 50%;
+    color: aqua;
+
+}
+
+div.nav {
+    padding: 10px;
+    width: 50%;
+    color: aqua;
+
+}
+
+div.masthead {
+   font-size: 20vw;
+   line-height: 32vw;
+   color: rgba(0, 255, 255, 0.777);
+   text-align: right;
+   text-shadow: blue;
+   font-family: "luo";
+  
+}
+
+div.about {
+    font-family:arial;
+    font-size: 20px;
+    color: aqua;
+    text-align: right;
+    border-bottom: 1px solid rgba(5, 225, 254, 0.757);
+    
+}
+
+div.footnotes {
+display: flex;
+flex-wrap: wrap;
+border-top: 1px solid rgba(5, 225, 254, 0.757);
+color: aqua;
+margin-top: 10%;
+width: 100%;
+}
+div.note.one {
+    width: 100%;
+    padding: 20px;
+   
+    color:aqua;
+}
+
+div.note.two {
+    width: 100%;
+    padding: 20px;
+    color: aqua;
+    text-align: right;
+}
+
+div.footnotes.one {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid rgba(5, 225, 254, 0.757);
+    color: aqua;
+    margin-top: 10%;
+    }
+
+div.note {
+    width: 50%;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: aqua;
+
+}
+
+div.title {
+    font-size: 144px;
+    letter-spacing: -5px;
+    color: rgb(58, 218, 196);
+    text-align: left;
+    margin-bottom: 50px;
+
+   
+}
+
+div.keywords {
+    font-size: 72px;
+    text-align:left;
+    color: rgb(58, 218, 196);
+    margin-bottom: 5%;
+    margin-top: 5%;
+    
+}
+
+div.container {
+display: flex;
+flex-wrap: wrap;
+align-items: top;
+}
+
+
+
+div.item {
+    width: 30%;
+    padding: 20px;
+   box-shadow: 3px,aqua;
+   
+}
+div.item.pushleft {
+    width:50%;
+    margin-left: 33.33%;
+    color: aqua;
+    
+    
+
+}
+div.item.pushright {
+   
+    width: 45%;
+    color: aqua;
+    margin-right: 33.33%;
+    margin-top: 5%;
+    
+}
+div.item.larger {
+    width: 30%;
+    margin-left: 66.66%;
+    color: aqua;
+   
+}
+div.number {
+    font-size: 80px;
+}
+div.text {
+    color: aqua;
+    font-size: 20px;
+    margin-left: 10%;
+}
+div.item.image {
+   
+   width: 70%;
+   
+   margin-bottom: 5%;
+}
+
+div.item.paizi {
+   
+    width: 60%;
+    
+    margin-bottom: 5%;
+ }
+
+div.text.fingerprint {
+    margin-left: 40%;
+    font-size: 30px;
+}
+
+div.title.one {
+    font-size: 300px;
+    letter-spacing: -5px;
+    color:aqua;
+    text-align: right;
+    font-family: "luo";
+    
+   
+}
+div.text.one {
+    font-size: 150px;
+    text-align:center;
+    color: rgb(35, 45, 44);
+}
+
+div.footnote.one {
+    font-size: 80px;
+   
+   
+}
+div.note.two {
+    margin-left: 40%;
+}
+
+div.text.two {
+    font-size: 150px;
+    text-align:center;
+    color: rgb(35, 45, 44);
+}
+
+div.item.one {
+    width: 30%;
+    margin-left: 33.3%;
+}
+
+div.title.two {
+   font: 100px;
+   margin-left: 28%;
+}
+
+div.item.two {
+    margin-left: 5%;
+    margin-top: 5%;
+   
+}
+
+div.item.three {
+    margin-left: 60%;
+   
+}
+
+div.item.four {
+   
+   width: 50%;
+}
+
+div.item.five {
+    margin-left: 40%;
+    width: 50%;
+}
+
+div.item.snow {
+    width: 100%;
+}
